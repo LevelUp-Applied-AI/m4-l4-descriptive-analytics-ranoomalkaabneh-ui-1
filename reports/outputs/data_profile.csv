@@ -1,0 +1,11 @@
+,dtype,missing_count,missing_pct,n_unique
+student_id,str,0,0.0,2000
+department,str,0,0.0,5
+semester,str,0,0.0,3
+course_load,int64,0,0.0,4
+study_hours_weekly,float64,0,0.0,267
+gpa,float64,0,0.0,216
+attendance_pct,float64,0,0.0,470
+has_internship,str,0,0.0,2
+commute_minutes,float64,181,9.049999999999999,57
+scholarship,str,389,19.45,4

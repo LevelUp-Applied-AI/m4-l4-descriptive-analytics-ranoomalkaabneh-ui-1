@@ -1,0 +1,11 @@
+This project applied a combination of statistical analysis, exploratory data analysis, and simulation techniques to investigate factors influencing student GPA.
+
+In Tier 1, a one-way ANOVA test was conducted to examine differences in GPA across departments. The results indicated no statistically significant differences, suggesting that department alone is not a strong determinant of student performance. This finding was further supported by violin plot visualizations, which showed substantial overlap in GPA distributions across departments.
+
+In Tier 2, a reusable EDA module (eda_report.py) was developed to automate exploratory analysis. The module generated data profiles, distribution plots, correlation heatmaps, missing data visualizations, and outlier summaries. This approach improved efficiency, reproducibility, and scalability of the analysis. Additionally, Sweetviz was used to validate and complement the findings through automated reporting.
+
+In Tier 3, advanced statistical techniques were applied. Bootstrap resampling produced stable and non-overlapping confidence intervals for GPA based on internship status, indicating a clear difference between students with and without internships. This result was consistent with the parametric Welch t-test confidence interval, reinforcing the robustness of the findings. Power analysis demonstrated the sample size requirements needed to detect the observed effect with sufficient statistical power. Furthermore, simulation results confirmed that the false positive rate closely matched the nominal significance level (α = 0.05), indicating that the statistical testing procedure is well-calibrated and reliable.
+
+Overall, the analysis highlights that while department does not significantly impact GPA, internship experience appears to be a meaningful factor associated with improved academic performance. The integration of statistical testing, visualization, and simulation provides a comprehensive and reliable understanding of the data.
+
+Future work could extend this analysis using regression models to account for additional variables such as study hours, attendance, and course load, enabling a deeper exploration of the factors influencing student success.
